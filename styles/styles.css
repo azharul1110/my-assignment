@@ -29,12 +29,12 @@
     align-items: center;
 }
 
-ul{
+.navigation ul{
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-ul li{
+ .navigation ul li{
     list-style: none;
     
 }
@@ -96,6 +96,7 @@ ul li a{
     text-align:center ;
     gap: 56px;
     padding: 60px 80px;
+    margin: auto;
     
     
 }
@@ -110,6 +111,7 @@ ul li a{
 .card{
     border: 1px solid #E5E7EB;
     padding: 50px 24px 53px 24px;
+    border-radius: 12px;
 }
 .card h3{
     font-size: 12px;
@@ -123,4 +125,88 @@ ul li a{
 .card p{
     font-size: 14px;
     color: #575757; ;
+}
+
+/* Secure your spot part */
+
+.CARD{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.card-parent{
+    display: flex;
+    justify-content: center;
+    gap:24px ;
+}
+.card-1{
+    border: 1px solid #E5E7EB;
+    text-align: left;
+    padding: 32px;
+    border-radius:12px ;
+}
+.card-1 p{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+}
+.card-1 h4, p{
+    color: #888888;
+}
+.card-1 h1{
+    font-size:44px ;
+    font-weight: bold;
+}
+.card-1 ul li{
+    font-size: 14px;
+    color: #333333;
+}
+.special{
+    background-color: #0D1B2A;
+    border: 1px solid #E5E7EB;
+    text-align: left;
+    padding: 32px;
+    border-radius:12px ;
+
+}
+.special p{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    
+}
+.special h4{
+    color:#93C5FD;
+}
+.special h1{
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+}
+.special ul li{
+    font-size: 14px;
+    color:white;
+}
+
+.btn-1{
+    background-color:white ;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    padding:11px 106px ;
+    cursor: pointer;
+}
+.btn-2{
+    background-color:#2563EB ;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding:11px 106px ;
+    cursor: pointer;
+}
+.btn-3{
+    background-color:white ;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding:11px 106px ;
+    cursor: pointer;
 }
