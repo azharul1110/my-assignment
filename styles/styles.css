@@ -1,0 +1,38 @@
+.common-btn{
+    background-color:#1D4ED8 ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 41.5px;
+    cursor: pointer;
+}
+
+
+
+.nav-parent{
+    max-width: 1200px;
+    margin: auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div img{
+    
+    color: #0D1B2A;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+ul li{
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px;
+}
